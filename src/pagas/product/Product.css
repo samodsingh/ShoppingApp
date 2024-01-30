@@ -1,0 +1,14 @@
+.pro_card_style{
+        width: '100%';
+        text-align: center;
+
+    }
+
+.card_description{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
