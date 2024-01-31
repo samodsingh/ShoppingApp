@@ -123,7 +123,7 @@ export default function Footerpage() {
           </Row>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+      <div className='f_copyright_section'>
         © 2024 Copyright: 
         <a className='text-reset fw-bold' href='https://google.com/'>
           Google.com
