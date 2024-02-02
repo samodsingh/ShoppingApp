@@ -5,15 +5,13 @@ import Home from './pagas/home/Home';
 import Product from './pagas/product/Product';
 import Contact from './pagas/Contact';
 import Loginpage from './pagas/login/Loginpage';
-import { Layout, theme } from 'antd';
+import { Layout } from 'antd';
 import Footerpage from './components/Footer/Footerpage'
 import Appheader from './components/headerpage/Appheader';
 const { Footer } = Layout;
 
 const App = () => {
-  const {
-    token: { colorBgContainer, borderRadiusLG },
-  } = theme.useToken();
+
   return (
     <Layout>     
            <BrowserRouter>      

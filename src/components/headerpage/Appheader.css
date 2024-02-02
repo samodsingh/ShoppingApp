@@ -71,13 +71,15 @@ nav {
     right: 0;
     top: 20;
     font-family: 'Montserrat', 'sans-serif';
-    height: 50px;
+    height: 60px;
     background-color: #23282d;
     padding: 20px;
+    align-items: center;
 
 }
 
 nav .links {
+    margin-left: 80px;
     width: 30%;
     height: 100%;
     display: flex;

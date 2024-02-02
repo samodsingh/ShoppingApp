@@ -26,7 +26,7 @@ import { GiPencilRuler } from "react-icons/gi";
 import { AiOutlineAntDesign } from "react-icons/ai";
 import { FaTractor } from "react-icons/fa";
 import { FaHelmetSafety } from "react-icons/fa6";
-// import {LbImg} from "../../images";
+import lbimage from "../../images/lbimage.jpg";
 
 const items = [
   {
@@ -67,11 +67,33 @@ export default function Home() {
           className="mySwiper"
         >
           <SwiperSlide className='swiper-slide'>
-            <h1>samod kumar singh</h1>
-          </SwiperSlide>
-          <SwiperSlide className='swiper-slide'>Slide 2</SwiperSlide>
-          <SwiperSlide className='swiper-slide'>Slide 3</SwiperSlide>
-          <SwiperSlide className='swiper-slide'>Slide 4</SwiperSlide>
+            <div className="carousel_text">
+              <h2>World Class Service</h2>
+              <h3>When Service Matters</h3>
+              <h1>Your Choice is Simple</h1>
+            </div>
+          </SwiperSlide>        
+          <SwiperSlide className='swiper-slide'>
+            <div className="carousel_text">
+              <h2>World Class Service</h2>
+              <h3>Construction Industry</h3>
+              <h1>Your Choice is Simple</h1>
+            </div>
+          </SwiperSlide>        
+          <SwiperSlide className='swiper-slide'>
+            <div className="carousel_text">
+              <h2>World Class Service</h2>
+              <h3>When Service Matters</h3>
+              <h1>Your Choice is Simple</h1>
+            </div>
+          </SwiperSlide>        
+          <SwiperSlide className='swiper-slide'>
+            <div className="carousel_text">
+              <h2>World Class Service</h2>
+              <h3>When Service Matters</h3>
+              <h1>Your Choice is Simple</h1>
+            </div>
+          </SwiperSlide>        
         </Swiper>
       </section>
       <section className="about_value_section">
@@ -140,8 +162,8 @@ export default function Home() {
       <section className='specialists_section'>
         <p>WE ARE SPECIALISTS IN</p>
         <h1>WHAT WE DO</h1>
-        <Row className='specialists_section_row' justify={'space-around'} style={{textAlign:'center'}}>
-          <Col xs={24} sm={24} md={8} lg={7} xl={7}>
+        <Row className='specialists_section_row' justify={'space-evenly'} style={{textAlign:'center'}}>
+          <Col xs={24} sm={24} md={8} lg={8} xl={8}>
             <ul className='specialists_left_items'>
               <li>
                 <div className="specialists_icon"><BsBuildings /></div>
@@ -166,12 +188,12 @@ export default function Home() {
               </li>
             </ul>
           </Col>
-          <Col xs={24} sm={24} md={8} lg={7} xl={7}>            
+          <Col xs={24} sm={24} md={8} lg={3} xl={3}>            
               <div className="member_img">
-                <img src=" " alt="Lb image" />
+                <img src={lbimage} alt="Lb image" />
               </div>
           </Col>
-          <Col xs={24} sm={24} md={8} lg={7} xl={7}>
+          <Col xs={24} sm={24} md={8} lg={8} xl={8}>
             <ul className='specialists_left_items'>
               <li>
                 <div className="specialists_icon"><AiOutlineAntDesign /></div>
