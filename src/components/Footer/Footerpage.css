@@ -67,26 +67,32 @@
 
 .form_feild{
     margin-top: 10px;
-    width: 400px;
     margin: auto;
     border-radius: 25px;
     display: flex;
-    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
 }
 .form_feild .feild{
-    width: 300px;
     height: 49px;
+    width: 300px;
     border-radius: 25px 0 0 25px;
-    padding: 6px 10px;
+    padding: 10px 20px;
     text-transform: uppercase;
 }
 .form_feild .btn{
-    width: 100px;
     border-radius: 0 25px 25px 0;
     font-weight: 600;
     background-color: #a31e36;
     text-transform: uppercase;
+    padding: 10px 20px;
 }
 .form_feild .btn a{
     color: whitesmoke;
 }
+
+@media screen and (max-width: 776px) {
+     .menu_item{
+        text-align: center;
+    }
+  }

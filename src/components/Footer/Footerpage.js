@@ -10,7 +10,7 @@ function Footerpage() {
   return (
     <div className='footer_container'> 
       <Row justify={'space-between'}>
-        <Col xs={24} sm={23} md={6} lg={5} xl={5}>
+        <Col xs={24} sm={23} md={5} lg={5} xl={5}>
           <div className="footer_brand"><a href="#">MyLOgo</a></div>
           <div className="site_footer_construction">
             <p>Free In Home Consultation</p>
@@ -23,7 +23,7 @@ function Footerpage() {
             <a href="#"><TiSocialTwitter /></a>
           </div>
       </Col>
-      <Col xs={24} sm={24} md={6} lg={5} xl={5}>
+      <Col xs={24} sm={24} md={5} lg={5} xl={5}>
           <ul className="footer_menu">
             <li className='menu_item'>
               <a href="#">“EFFORTLESS” MAGAZINE</a>
@@ -43,7 +43,6 @@ function Footerpage() {
           </ul>
       </Col>
       <Col xs={20} sm={24} md={6} lg={5} xl={5}>
-        <div className="site_footer_menu">
           <ul className="footer_menu">
             <li className='menu_item'>
               <a href="#">WARRANTY</a>
@@ -61,9 +60,8 @@ function Footerpage() {
               <a href="#">CUSTOMER REVIEWS</a>
             </li>         
           </ul>
-        </div>
       </Col>
-      <Col xs={24} sm={23} md={6} lg={8} xl={8}>
+      <Col xs={24} sm={23} md={10} lg={8} xl={8}>
          <div className="newsletter-callout">
            <p className="newsletter-callout-title">
              Sign-up for our newsletter for upcoming trends and deals
