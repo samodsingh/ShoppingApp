@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import './App.css';
 import Home from './pagas/home/Home';
 import Product from './pagas/product/Product';
-import Contact from './pagas/Contact';
+import Contact from './pagas/contact/Contact';
 import Loginpage from './pagas/login/Loginpage';
 import { Layout } from 'antd';
 import Footerpage from './components/Footer/Footerpage'

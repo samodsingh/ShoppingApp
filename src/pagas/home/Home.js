@@ -66,28 +66,28 @@ export default function Home() {
           modules={[Pagination, Navigation, Autoplay]}
           className="mySwiper"
         >
-          <SwiperSlide className='swiper-slide'>
+          <SwiperSlide className='swiper-slide one'>
             <div className="carousel_text">
               <h2>World Class Service</h2>
               <h3>When Service Matters</h3>
               <h1>Your Choice is Simple</h1>
             </div>
           </SwiperSlide>        
-          <SwiperSlide className='swiper-slide'>
+          <SwiperSlide className='swiper-slide two'>
             <div className="carousel_text">
               <h2>World Class Service</h2>
               <h3>Construction Industry</h3>
               <h1>Your Choice is Simple</h1>
             </div>
           </SwiperSlide>        
-          <SwiperSlide className='swiper-slide'>
+          <SwiperSlide className='swiper-slide three'>
             <div className="carousel_text">
               <h2>World Class Service</h2>
               <h3>When Service Matters</h3>
               <h1>Your Choice is Simple</h1>
             </div>
           </SwiperSlide>        
-          <SwiperSlide className='swiper-slide'>
+          <SwiperSlide className='swiper-slide four'>
             <div className="carousel_text">
               <h2>World Class Service</h2>
               <h3>When Service Matters</h3>

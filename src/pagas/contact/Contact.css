@@ -1,0 +1,71 @@
+.contact_container .banner_top {
+    text-align: center;
+    background-image: url('../../images/construction_bg4.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact_container .banner_top div{
+    padding: 10%;
+}
+.banner_top h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.banner_top h3{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 10px;
+    color: rgb(224, 137, 30);
+}
+.contacts_us{
+    padding: 20px 10px;    
+    text-align: center;
+}
+.contacts_us .contacts_box{
+    width: 100%;
+}
+.contacts_us .contacts_box > h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.contacts_us .contacts_box ul{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: start;
+}
+.contacts_us .contacts_box ul li{
+    list-style: none;
+    width: 200px;
+    padding: 10px 0;
+}
+.contacts_us .contacts_box ul li h1{
+    font-size: 16px;
+    font-weight: 600;
+}
+.contacts_us .contacts_box ul li .list_text{
+    font-size: 17px;
+    padding: 8px 0;
+}
+.contacts_us .contacts_box ul li h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.our_contact_section{
+    text-align: center;
+}
+.our_contact_section h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+.our_contact_section h3{
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px;
+}

@@ -15,17 +15,31 @@
   }  
   .swiper-slide {
     text-align: start;
-    background-image: url('../../images/carosel_bg_img1.avif'); 
     width: 100%;
     height: 600px;
-    visibility: 0.9;
     background-size: cover;
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
   }
-.swiper-slide .carousel_text{
+  .swiper .one{
+    background-image: url('../../images/construction_bg5.jpg'); 
+    background-size: cover;
+  }
+  .swiper .two{
+    background-image: url('../../images/construction_bg2.jpg'); 
+    background-size: cover;
+  }
+  .swiper .three{
+    background-image: url('../../images/construction_bg1.jpg'); 
+    background-size: cover;
+  }
+  .swiper .four{
+    background-image: url('../../images/construction_bg4.jpg'); 
+    background-size: cover;
+  }
+  .swiper-slide .carousel_text{
   text-align: start;
 }
 .swiper-slide h2{
